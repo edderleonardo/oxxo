@@ -7,6 +7,7 @@ class ColonyViewSet(ModelViewSet):
     queryset = Colony.objects.all()
     serializer_class = ColonySerializer
 
+
 class OxxoViewSet(ModelViewSet):
     queryset = Oxxo.objects.all()
     serializer_class = OxxoSerializer
