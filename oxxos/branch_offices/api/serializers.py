@@ -18,6 +18,7 @@ class OxxoSerializer(serializers.ModelSerializer):
         model = Oxxo
         fields = [
             'id',
+            'name',
             'colony',
             'lat',
             'lng',
